@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
@@ -50,23 +48,23 @@ body {font-family: "Lato", sans-serif;}
 
 <center>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Music')" id="defaultOpen">Music</button>
+  <button class="tablinks active" onclick="openCity(event, 'Music')" id="defaultOpen">Music</button>
   <button class="tablinks" onclick="openCity(event, 'OtherWebsite')" id="defaultOpen">My other websites</button>
   <button class="tablinks" onclick="openCity(event, 'Sponsor')">Sponsor us</button>
   <button class="tablinks" onclick="openCity(event, 'Info')">Info</button>
-  </center>
-</div>
+  </div></center>
 
-<div id="Music" class="tabcontent">
+
+<div id="Music" class="tabcontent" style="display: block;">
   <p>Click the album name to show/hide the songs in the album</p>
 
 <button onclick="songFunction1()">Growling beast</button>
 
-<div id="GrowlingBeast">
+<div id="GrowlingBeast" style="display: none;">
 <div>
 when you have fun you die:
 <p></p>
-<audio controls>
+<audio controls="">
   
   <source src="" type="audio/mpeg">
 Your browser does not support the audio element.
@@ -92,18 +90,18 @@ function songFunction1() {
  
 </div>
   
-  <div id="OtherWebsite" class="tabcontent">
+  <div id="OtherWebsite" class="tabcontent" style="display: none;">
   <a href="https://nikogilian.github.io/HowToKnifeGame/">How to knife game</a>
  
 </div>
 
-<div id="Sponsor" class="tabcontent">
+<div id="Sponsor" class="tabcontent" style="display: none;">
   <a href="https://mail.google.com/mail/u/0/#search/nikogilsponsors%40gmail.com?compose=new">Email us "Sponsor request" and we will get back to you as soon as possible</a>
     <p>Info about sponsors: We will ask you what website you would want us to put on the ad banner and every 5 dollars you give us is one more day that the ad will be up for 
       example if you donate us 10 dollars the ad will be up for 2 days</p>
 </div>
 
-<div id="Info" class="tabcontent">
+<div id="Info" class="tabcontent" style="display: none;">
   <h3>About me:</h3>
   <p>Nothing yet just wait until its finished</p>
 </div>
@@ -128,7 +126,8 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
   
-  <a href=""><table width="275" border="1" cellpadding="3" bordercolor="#0000FF"><tr><td><div align="center">No current sponsor</div></td></tr></table></a>
+  <a href=""><table width="275" border="1" cellpadding="3" bordercolor="#0000FF"><tbody><tr><td><div align="center">No current sponsor</div></td></tr></tbody></table></a>
    
-</body>
-</html> 
+
+ 
+</body></html>
