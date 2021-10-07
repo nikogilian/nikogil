@@ -50,16 +50,44 @@ body {font-family: "Lato", sans-serif;}
 
 <center>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Bored')" id="defaultOpen">Bored</button>
+  <button class="tablinks" onclick="openCity(event, 'Music')" id="defaultOpen">Music</button>
   <button class="tablinks" onclick="openCity(event, 'OtherWebsite')" id="defaultOpen">My other websites</button>
   <button class="tablinks" onclick="openCity(event, 'Sponsor')" id="defaultOpen">Sponsor us</button>
   <button class="tablinks" onclick="openCity(event, 'Info')">Info</button>
   </center>
 </div>
 
-<div id="Bored" class="tabcontent">
-  <h3>Random links:</h3>
-  <a href="https://hackertyper.com/">Hacker typer (Not mine)</a>
+<div id="Music" class="tabcontent">
+  <p>Click the album name to show/hide the songs in the album</p>
+<div id="GrowlingBeastDiv">
+<button onclick="songFunction1()">Growling beast</button>
+
+<div id="GrowlingBeast">
+<div>
+when you have fun you die:
+<p></p>
+<audio controls>
+  
+  <source src="" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<div>
+</div>
+
+
+
+<script>
+
+function songFunction1() {
+  var x = document.getElementById("GrowlingBeast");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+</div>
  
 </div>
   
