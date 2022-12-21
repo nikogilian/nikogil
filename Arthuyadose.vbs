@@ -1,5 +1,0 @@
-X=MsgBox("A virus has been detected. Would like to delete the virus?",0+48,"Virus Detection System V1.4")
-X=MsgBox("Virus unable to be deleted. Would you like to purge scan this device? It will delete ALL possible threats on this computer",0+64,"Critical Error")
-X=MsgBox("Virus has copied your password.",0+16,"Virus activity")
-X=MsgBox("Account access locked.",0+16,"Virus activity")
-X=MsgBox("XD JAJAJA GET PRANKED THIS AINT REAL",0+48,"L BOZ")
