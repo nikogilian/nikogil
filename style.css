@@ -36,3 +36,11 @@ button:hover {
 		.fa-youtube {
 			background-color: #FF0000;
 		}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 90%;
+  }
+}
