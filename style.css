@@ -1,0 +1,17 @@
+body {
+  background-color: grey;
+}
+/* Style for all buttons */
+button {
+  border-radius: 5px; /* Rounded edges */
+  background-color: green; /* Green background */
+  padding: 10px 20px; /* Padding for the button */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Shadow effect */
+  transition: all 0.3s ease-in-out; /* Animation transition */
+}
+
+/* Style for when the button is hovered */
+button:hover {
+  transform: translateY(-2px); /* Move button up */
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.5); /* Increase shadow effect */
+}
