@@ -18,4 +18,21 @@ button:hover {
 		.fa {
 			font-size: 48px;
 			line-height: 1;
+			color: #fff;
+			border-radius: 50%;
+			text-align: center;
+			display: inline-block;
+			transition: all .3s ease;
+			margin: 10px;
+			padding: 20px;
+		}
+		.fa:hover {
+			transform: scale(1.1);
+			cursor: pointer;
+		}
+		.fa-twitter {
+			background-color: #1DA1F2;
+		}
+		.fa-youtube {
+			background-color: #FF0000;
 		}
