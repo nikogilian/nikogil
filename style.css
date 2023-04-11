@@ -3,7 +3,6 @@ body {
 }
 /* Style for all buttons */
 .button {
-  color: white;
   border-radius: 5px; /* Rounded edges */
   background-color: green; /* Green background */
   padding: 10px 20px; /* Padding for the button */
