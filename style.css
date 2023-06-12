@@ -6,14 +6,13 @@ body, h1 {
 
 #stuff {
   border: 4px solid darkgrey;
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: grey;
   padding: 20px;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 800px;
   width: 100%;
 }
-
-
 
 body {
   background-color: black;
